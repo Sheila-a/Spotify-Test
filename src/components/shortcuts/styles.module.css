@@ -1,0 +1,18 @@
+.shortcut {
+    background: #fff;
+    background: red;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    outline: none;
+    border: 0;
+    padding: 0vh 3vh;
+    margin: 5vh 0 0 5vh;
+}
+
+.shortcut p {
+    margin: 2vh auto;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(153, 153, 154);
+}

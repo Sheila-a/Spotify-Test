@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { FavArtist } from "./components/favArtist/index.jsx";
+import { Shortcut } from "./components/shortcuts/index.jsx";
+import Home from "./pages/Home/index.jsx";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Shortcut /> */}
+      {/* <FavArtist /> */}
+      <Home />
     </div>
   );
 }

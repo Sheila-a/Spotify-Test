@@ -1,0 +1,12 @@
+.dash {
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+    background: #000;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.dash img {
+    margin-right: 2vh;
+}
