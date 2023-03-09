@@ -1,4 +1,6 @@
 .main {
     display: flex;
     padding: 3vh 10vh;
+    background: rgb(231, 232, 243);
+
 }
